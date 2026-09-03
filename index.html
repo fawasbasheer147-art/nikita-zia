@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Nikita Fernandes | Zia Shaikh Wedding Invitation</title>
+
+    <meta name="description"
+        content="We cordially invite you to our wedding.">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <!-- Open Graph -->
+    <meta property="og:title" content="Nikita Fernandes | Zia Shaikh Wedding Invitation">
+    <meta property="og:description" content="Wedding invitation website">
+    <meta property="og:image"
+        content="https://nikita-zia.vercel.app/assests/images/123.png?v=2">
+    <meta property="og:url"
+        content="https://nikita-zia.vercel.app/">
+    <meta property="og:type" content="website">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+
+</head>
+
+
+<body>
+
+  <!-- MUSIC -->
+  <audio id="bgMusic" loop>
+    <source src="assests/audio/music1.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- MUSIC BUTTON -->
+  <button id="musicToggle" class="music-toggle">
+    <span id="musicIcon">🔊</span>
+  </button>
+
+  <!-- VIDEO OVERLAY -->
+  <section class="hero-section">
+
+    <div class="video-container">
+
+      <video
+        id="curtainVideo"
+        playsinline
+        webkit-playsinline
+        preload="auto"
+        muted
+        poster="assests/images/cover.avif"
+      >
+        <source src="assests/videos/nadavd.mp4" type="video/mp4">
+      </video>
+
+      <!-- OPEN BUTTON -->
+      <div id="playOverlay" class="overlay">
+<img src="assests/images/cover.avif" class="overlay-image" alt="">
+        <div class="play-button">
+          <iconify-icon
+            icon="majesticons:hand-click-line"
+            class="hand-icon"
+          ></iconify-icon>
+        </div>
+
+        <p class="tap-text">Open Invitation</p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- STACKED IMAGES -->
+  <section class="image-stack">
+
+    <div class="img-wrap">
+      <img src="assests/images/1.avif" alt="" class="zoom-10">
+      <div class="scroll-hint" aria-label="Scroll down">
+        <span class="scroll-text">Scroll Down</span>
+        <span class="scroll-arrow">↓</span>
+      </div>
+    </div>
+
+    <div class="img-wrap">
+      <img src="assests/images/2.avif" alt="">
+    </div>
+
+    <div class="img-wrap">
+      <img src="assests/images/3.avif" alt="">
+    </div>
+     <div class="img-wrap map-section">
+
+    <img
+        src="assests/images/4.avif"
+        alt="Wedding Location">
+
+    <div class="map-button">
+
+    <div class="location-block">
+
+        <h3>Marriage</h3>
+
+        <a href="https://maps.app.goo.gl/eRD6vzHSrMvJL8uJA?g_st=ic"
+           target="_blank"
+           class="venue-name">
+            St.Anthony's Ground
+            <span>Andheri West</span>
+        </a>
+         <a href="https://maps.app.goo.gl/eRD6vzHSrMvJL8uJA?g_st=ic"
+           target="_blank"
+           class="map-link">
+            <span class="arrow">↑</span>
+            Click here to view on Google Maps
+        </a>
+
+    </div>
+
+    
+
+    
+
+    <div class="map-footer">
+        <a href="https://instagram.com/leora.invite"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="instagram-link">
+            @leora.invite
+        </a>
+    </div>
+
+</div>
+
+    </section>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
